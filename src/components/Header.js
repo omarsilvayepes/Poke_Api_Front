@@ -10,14 +10,6 @@ const Header = () => {
                     <h2>PokeApi</h2>
                 </Link>
             </div>
-            <Link to="/upload" className="create">
-                <div className="ui animated button primary" tabindex="0">
-                    <div className="visible content" >Crear</div>
-                    <div className="hidden content">
-                        <i className="plus icon"></i>
-                    </div>
-                </div>
-            </Link>
         </div>
     );
 };

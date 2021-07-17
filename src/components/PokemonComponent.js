@@ -1,5 +1,5 @@
 import React from 'react';
-import {  useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 const PokemonComponent = () => {
 
@@ -7,9 +7,13 @@ const PokemonComponent = () => {
 
     const deletePokemon = async (id) => {
         fetch(`https://pokemon-api-node.herokuapp.com/poke-api/v1/pokemon/?id=${id}`, {
-         method: 'DELETE',
-        }).then(res => console.log(res))
+            method: 'DELETE',
+        }).then(res =>{ console.log(res)
+            window.location.reload();
+        })
+
     }
+    
 
     const renderList = pokemons.map((pokemon) => {
         const { _id, name, hp, damage, defense, elementtype, image } = pokemon;
