@@ -1,4 +1,10 @@
 # Getting Started with Create React App
+---------------------------------------------------------------
+Despligue :
+----------------------------------------------------------------
+heroku: https://pokemon-api-node.herokuapp.com/poke-api/v1/pokemon
+firebase:https://pokeapi-react-2fbf1.web.app/
+----------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
